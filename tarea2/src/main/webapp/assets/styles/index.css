@@ -1,0 +1,70 @@
+.body {
+  position: relative;
+  min-height: 100vh;
+  background-color: #dee2e6;
+}
+
+.user-icon {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  list-style-type: none;
+}
+
+.footer {
+  background-color: #212529;
+  color: #9E9E9E;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+	margin: 0;
+}
+
+.banner {
+  width: 100%;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.pageContainer {
+  padding-bottom: 55px;
+}
+
+.profileSvg {
+  color: #9E9E9E;
+  width: 35px;
+  height: 35px;
+}
+
+.navBar {
+	width: 350px;
+	left: -170% !important;
+}
+
+.logout-btn {
+	border: none;
+	background: none;
+}
+
+.logout-svg {
+	height: auto;
+	width: 30px;
+}
+
+.clases-container {
+	display: flex;
+	background-color: red;
+}
